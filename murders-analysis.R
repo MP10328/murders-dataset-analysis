@@ -1,6 +1,5 @@
 #---
 #title: "Murders-analysis"
-#output: html_document
 #---
   
 # load in the dataset
