@@ -280,7 +280,7 @@ total_gun_murders <- murders$total
 plot(population_in_millions, total_gun_murders)
 ```
 
-![](murders-analysis_files/figure-markdown_github/unnamed-chunk-14-1.png) </BR> The graph shows that there is a relationship between population and number of murders </BR>
+![](murders-analysis_files/figure-markdown_github/plot1-1.png) </BR> The graph shows that there is a relationship between population and number of murders </BR>
 
 Create a histogram for the murder rate
 
@@ -288,7 +288,7 @@ Create a histogram for the murder rate
 hist(murders$rate)
 ```
 
-![](murders-analysis_files/figure-markdown_github/unnamed-chunk-15-1.png) </BR> There is one very high anomaly
+![](murders-analysis_files/figure-markdown_github/hist1-1.png) </BR> There is one very high anomaly
 
 ``` r
 murders$state[which.max(murders$rate)]
@@ -302,4 +302,4 @@ Create a boxplot
 boxplot(rate~region, data = murders)
 ```
 
-![](murders-analysis_files/figure-markdown_github/unnamed-chunk-17-1.png) </BR> The region South has the highest murder rate </BR>
+![](murders-analysis_files/figure-markdown_github/boxplot1-1.png) </BR> The region South has the highest murder rate </BR>
